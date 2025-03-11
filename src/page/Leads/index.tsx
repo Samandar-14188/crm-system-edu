@@ -7,6 +7,7 @@ import {
   VideoCameraOutlined,
 } from '@ant-design/icons';
 import { Button, Layout, Menu, theme } from 'antd';
+import FormDialog from '../../components/mui/dialog';
 
 const { Header, Sider, Content } = Layout;
 
@@ -65,7 +66,7 @@ const Leads: React.FC = () => {
             borderRadius: borderRadiusLG,
           }}
         >
-          Content
+         <FormDialog />
         </Content>
       </Layout>
     </Layout>

@@ -52,7 +52,7 @@ const Auth: React.FC = () => {
           boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
         }}>
           <Image src={logo} alt="Logo" preview={false} style={{ marginBottom: '20px', display: 'block', margin: '0 auto', maxWidth: '200px' }} />
-          <Title level={3} style={{ textAlign: 'center', marginBottom: '20px' }}>Welcome</Title>
+          <Title level={3} style={{ textAlign: 'center', marginBottom: '20px' }}>Xush Kelibsiz</Title>
 
           <Form
             name="basic"
@@ -72,7 +72,7 @@ const Auth: React.FC = () => {
               name="password"
               rules={[{ required: true, message: 'Please input your password!' }]}
             >
-              <Input.Password placeholder="Password" size="large" />
+              <Input.Password placeholder="Parol" size="large" />
             </Form.Item>
 
             <Form.Item>

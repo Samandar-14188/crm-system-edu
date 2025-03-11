@@ -7,7 +7,7 @@ import {
   VideoCameraOutlined,
 } from '@ant-design/icons';
 import { Button, Layout, Menu, theme } from 'antd';
-
+import DrawerComponents from '../../components/ant/add/drawer';
 const { Header, Sider, Content } = Layout;
 
 const Payments: React.FC = () => {
@@ -65,7 +65,7 @@ const Payments: React.FC = () => {
             borderRadius: borderRadiusLG,
           }}
         >
-          Content
+        <DrawerComponents />
         </Content>
       </Layout>
     </Layout>

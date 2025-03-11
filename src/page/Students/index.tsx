@@ -2,11 +2,10 @@ import React, { useState } from 'react';
 import {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
-  UploadOutlined,
   UserOutlined,
-  VideoCameraOutlined,
 } from '@ant-design/icons';
 import { Button, Layout, Menu, theme } from 'antd';
+import FormDialog from '../../components/mui/dialog';
 
 const { Header, Sider, Content } = Layout;
 
@@ -56,7 +55,7 @@ const Students: React.FC = () => {
               label: 'Qarzdorlar',
             },          
             {
-              key: '6',
+              key: '7',
               icon: <UserOutlined />,
               label: 'Hisobotlar',
             }            
@@ -86,7 +85,7 @@ const Students: React.FC = () => {
             borderRadius: borderRadiusLG,
           }}
         >
-          Content
+          <FormDialog />
         </Content>
       </Layout>
     </Layout>
